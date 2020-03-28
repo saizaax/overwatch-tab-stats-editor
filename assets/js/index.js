@@ -99,5 +99,5 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		setData();
-	}, 100);
+	}, 150);
 });
