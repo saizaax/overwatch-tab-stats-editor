@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'FuturaDemiC';
+	src: url('FuturaDemiC.eot');
+	src: local('Futura Demi Cyrillic'), local('FuturaDemiC'),
+		url('FuturaDemiC.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaDemiC';
+	src: url('FuturaDemiC-Italic.eot');
+	src: local('Futura Demi Italic Cyrillic'), local('FuturaDemiC-Italic'),
+		url('FuturaDemiC-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'FuturaBookC';
+	src: url('FuturaBookC-Italic.eot');
+	src: local('Futura Book Italic Cyrillic'), local('FuturaBookC-Italic'),
+		url('FuturaBookC-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'FuturaBookC';
+	src: url('FuturaBookC.eot');
+	src: local('Futura Book Cyrillic'), local('FuturaBookC'),
+		url('FuturaBookC.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

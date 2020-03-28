@@ -1,0 +1,167 @@
+body {
+    background-color: #161618;
+    background: center url('assets/img/body-background.jpg');
+    background-size: auto auto;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    height: 100%;
+}
+
+.h1-title {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px;
+}
+
+.h2-title {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 5px;
+}
+
+.input-style {
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 270px;
+}
+
+.dropdown {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 45px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0px 0px 5px 5px;
+    z-index: 1;
+}
+
+.dropdown-option {
+    position: relative;
+    width: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.dropdown-option:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button-style {
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 0;
+    border-radius: 0px;
+    
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 35px;
+    width: 270px;
+}
+
+#tint {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+#main-container {
+    position: relative;
+    margin: auto;
+    top: 80px;
+    
+    height: 600px;
+    width: 540px;
+    background: #232329;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 100px 150px;
+}
+
+#author-link {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+#author-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#h1-title-text {
+    padding-top: 55px;
+}
+
+#h2-title-text {
+    padding-top: 0px;
+}
+
+#h2-subtitle-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+#imageCanvas {
+    border: solid 0px rgba(255, 255, 255, 0.35);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 30px;
+}
+
+#input-div {
+    width: 270px;
+    margin-top: 40px;
+}
+
+#input-number {
+    margin-bottom: 15px;
+}
+
+#select-input {
+    display: inline-block;
+    width: 268px;
+    border: solid 1px #fff;
+}

@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Overwatch Score Image Generator</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="assets/fonts/Futura/stylesheet.min.css" rel="stylesheet">
+  <link href="styles.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+</head>
+<body>
+    <div id="tint"></div>
+    <div id="main-container" align="center">
+      <p class="h1-title" id="h1-title-text">OVERWATCH SCORE IMAGE GENERATOR</p>
+      <p class="h2-title" id="h2-title-text">developed by <a id="author-link" target="_blank" href="https://github.com/saizaax/">@saizaax</a></p>
+
+      <p class="h2-title" id="h2-subtitle-text">RESULT IMAGE</p>
+      <canvas id="imageCanvas" width="270" height="90"></canvas>
+
+      <div id="input-div" align="center">
+        <div class="dropdown">
+          <span class="input-style" id="select-input">GOLDEN MEDAL</span>
+          <div class="dropdown-content">
+            <p class="dropdown-option" id="golden">GOLDEN MEDAL</p>
+            <p class="dropdown-option" id="silver">SILVER MEDAL</p>
+            <p class="dropdown-option" id="bronze">BRONZE MEDAL</p>
+            <p class="dropdown-option" id="nothing">NO MEDAL</p>
+          </div>
+        </div>
+        <input type="text" name="score" class="input-style" id="input-number" placeholder="SCORE" value="1337">
+        <input type="text" name="index" class="input-style" id="input-text" placeholder="INDEX" value="HERO DAMAGE DONE">
+        <button type="submit" class="button-style" id="apply-button">APPLY CHANGES</button>
+      </div>
+    </div>
+    <script src="assets/js/index.min.js"></script>
+</body>
+</html>
