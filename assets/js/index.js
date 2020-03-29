@@ -21,6 +21,9 @@ function getRandomInt(min, max) {
 }
 let randombgr = getRandomInt(1, 6);
 
+bgr.src = `assets/img/background-${randombgr}.png`;
+mdl.src = 'assets/img/golden-medal.png';
+
 $('#imageCanvas').tilt({
 	scale: 1.2,
 	maxTilt: 12
@@ -94,10 +97,7 @@ $('#apply-button').click(function() {
 });
 
 $(document).ready(function() {
-	bgr.src = `assets/img/background-${randombgr}.png`;
-	mdl.src = 'assets/img/golden-medal.png';
-
 	setTimeout(function() {
 		setData();
-	}, 150);
+	}, 500);
 });
